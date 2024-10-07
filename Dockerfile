@@ -1,4 +1,4 @@
-FROM python:3.9.13-alpine
+FROM python:3.10.15-alpine
 RUN apk update \
     && apk add git \
     && apk add libpq postgresql-dev \
